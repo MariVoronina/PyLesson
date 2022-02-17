@@ -1,0 +1,4 @@
+from math import *
+
+n = int(input("Введите целое число > 500: "))
+print(round(sqrt(n),2))
