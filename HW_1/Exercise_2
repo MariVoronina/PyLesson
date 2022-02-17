@@ -1,0 +1,3 @@
+name = input("Введите свое имя: ").lower()
+fam_name = input("Введите свою фамилию: ").lower()
+print(name.title() + " " + fam_name.title())
