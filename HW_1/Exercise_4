@@ -1,0 +1,6 @@
+name = input("Введите имя: ")
+if len(name) < 5:
+    fam_name = input("Введите фамилию: ").lower()
+    print(name.title() + fam_name)
+else:
+    print(name.lower())
