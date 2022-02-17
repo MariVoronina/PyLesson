@@ -1,0 +1,11 @@
+ans = input("Дождь идет?")
+ans = ans.lower()
+if ans == "yes":
+    ans2 = input("Сегодня ветрено?")
+    ans2 = ans2.lower()
+    if ans2 == "yes":
+        print("It is too windy for an umbrella")
+    elif ans2 == "no":
+        print("Take an umbrella")
+elif ans == "no":
+    print("Enjoy your day")
